@@ -83,8 +83,8 @@ A new folder will be created witth the following name `deployments/${network}_$(
 ### Optional Parameters on both parameters
 
 -   `deployerPvtKey`: string, pvtKey of the deployer, overrides the address in `MNEMONIC` of `.env` if exist
--   `maxFeePerGas`:string, Set `maxFeePerGas`, must define aswell `maxPriorityFeePerGas` to use it
--   `maxPriorityFeePerGas`:string, Set `maxPriorityFeePerGas`, must define aswell `maxFeePerGas` to use it
+-   `maxFeePerGas`:string, Set `maxFeePerGas`, must define as well `maxPriorityFeePerGas` to use it
+-   `maxPriorityFeePerGas`:string, Set `maxPriorityFeePerGas`, must define as well `maxFeePerGas` to use it
 -   `multiplierGas`: number, Gas multiplier with 3 decimals. If `maxFeePerGas` and `maxPriorityFeePerGas` are set, this will not take effect
 
 ## Notes
